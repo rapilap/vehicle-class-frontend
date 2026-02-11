@@ -154,7 +154,7 @@
                 : "Drag & drop the image here"
             }}
           </p>
-          <p class="text-sm text-gray-400 mt-1">atau</p>
+          <p class="text-sm text-gray-400 mt-1">or</p>
           <button
             @click="$refs.fileInput.click()"
             type="button"
