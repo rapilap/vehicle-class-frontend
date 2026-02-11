@@ -230,7 +230,7 @@ defineProps({
   },
 });
 
-const API_URL = "http://localhost:8000"; // Sesuaikan dengan backend URL
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 const isDragging = ref(false);
 const image = ref(null);
